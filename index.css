@@ -1,0 +1,209 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Baloo+Da+2&family=Big+Shoulders+Display&family=Cuprum:ital@1&family=Inconsolata&family=Literata:ital,wght@1,300&family=Manuale:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,100;1,200&family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Arimo', sans-serif;
+}
+img{
+	width:100%;
+	height:333px;
+}
+ /* Header Area*/
+.header-area{
+	background: url(images/6.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.menu{}
+.menu ul{
+	list-style:none;
+	display:flex;
+	justify-content:center;
+}
+.menu ul li{
+	padding:20px 0;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-transform:uppercase;
+	font-weight:700;
+	transition:.5s;
+}
+.menu ul li a:hover{
+	background:#FFD211;
+	border-radius:5px;
+}
+
+.logo{
+	width:30%;
+	margin: 0 auto;
+	margin-top:150px;
+	  
+}
+ /* Service Area*/
+.Service-area{
+	padding:80px 0;
+	overflow:hidden;
+}
+.section-title{
+	padding:25px 0;
+	text-align:center;
+}
+.section-title h2{
+	font-size:35px;
+}
+.service-items{}
+.service-img{
+	width:32%;
+	float:left;
+	overflow:hidden;
+	margin-left:2%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.service-img:first-child,
+.service-img:nth-child(4){
+	margin-left: 0;
+}
+.service-overlay{
+	width:100%;
+	height:100%;
+	background:rgba(44, 62, 80, 0.75 );
+	position:absolute;
+	top:100%;
+	left:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transition:.8s;
+}
+.service-overlay h5{
+	font-size:20px;
+	color:#FFD211;
+}
+
+.service-img:hover .service-overlay{
+	top:0;
+}
+
+ /* Team Area*/
+ 
+.team-area{
+	padding:80px 0;
+	background:#bdc3c7;
+}
+.team-members{
+	display:flex;
+	justify-content: space-between;
+}
+.member{
+	width:23.5%;
+}
+.profile-photo{
+	position:relative;
+	overflow:hidden;
+}
+
+.team-overlay{
+	width:100%;
+	height:100%;
+	background:rgba(44, 62, 80, 0.75 );
+	position:absolute;
+	bottom:100%;
+	left:0;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	transition:.5s;
+}
+
+.team-overlay a {
+	margin:0 4px;
+	font-size:25px;
+	color:#FFD211;
+}
+
+.profile-photo:hover .team-overlay{
+	bottom:0;
+}
+.profile-info h5{
+	color: #8e44ad;
+	font-size: 20px;
+}
+.profile-info span{
+	font-style:italic;
+	font-size:14px;
+}
+
+/* Contact Page*/
+
+.contact-area{
+	padding:80px 0;
+	background: #ff5252;
+}
+
+.contact-form{
+	width:40%;
+	margin:0 auto;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+.form-group input,
+.form-group textarea{
+	width:100%;
+	padding: 5px 3px;
+	border-radius:10px;
+	border: 1px solid #84817a;
+}
+
+
+
+
+
+
+/* Footer Area*/
+
+.footer-area{
+	padding: 20px 0;
+	text-align:center;
+	background:#546de5;
+}
+.footer-area p{
+	color:#ff5252;
+}
+.footer-area a{
+	color: #FFD211;
+	text-decoration:none;
+	font-weight: 700px;
+}
+
+.contact-form input[type=submit]{
+	background:#ffb142;
+	border:none;
+	color:#fff;
+	padding:7px 15px;
+	transition:.5s;
+}
+
+.contact-form input[type=submit]:hover{
+	border-radius:5px;
+	cursor:pointer;
+}
